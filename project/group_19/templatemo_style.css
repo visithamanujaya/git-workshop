@@ -1,0 +1,212 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color:#FF0000;
+	background: #1a1f19;
+}
+
+
+
+a:link, a:visited { color: #cccc66; text-decoration: none} 
+a:active, a:hover { color: #cccc66; text-decoration: underline}
+
+#templatemo_container_wrapper {
+
+	background: url(back.jpg) repeat-x;
+}
+
+#templatemo_container {
+	width: 800px;
+	margin: auto;
+	border: 1px solid #ffffff;
+}
+
+
+/*------------ Header --------------- */
+
+#templatemo_header {
+	height: 240px;
+	background: #000000 url(software.jpg) no-repeat;
+}
+
+#templatemo_site_title {
+	padding-top: 160px;
+	padding-left: 50px;
+	font-size: 50px;
+	color:white;
+}
+
+#templatemo_site_title span{
+	font-weight: 200;
+	color:#FF0000;
+}
+
+#templatemo_site_slogan {
+	padding-top: 20px;
+	padding-left: 200px;
+	font-size: 1.1em;
+	color:#DCDCDC;
+}
+
+#logo{
+
+	float:right;
+	background: #000000 url(a.jpg) no-repeat;
+}
+#hed{
+	float: right;
+	font-size: 30px;
+	color:white;
+}
+
+#hed span{
+	float: left;
+	font-size: 20px;
+	color:#FF0000;
+}
+#meme1{
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* ---------------------------------- */
+
+/*------------- Menu ------------------*/
+.templatemo_menu{
+	float: left;
+	width: 800px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+	background: #434343 url(menubackground.gif) repeat-x;
+}
+
+.templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+.templatemo_menu li{
+	display: inline;
+}
+
+.templatemo_menu li a{
+	float: left;
+	padding: 10px 0px;
+	font: 1.2em arial;
+	text-align: center;
+	text-decoration: none;
+	color: #c6c6c6;
+	width: 160px;
+}
+
+.templatemo_menu li a:hover, .templatemo_menu li .current{
+	color: #ffffff;
+	background: url(images/menuhover.gif) center center no-repeat;
+}
+
+/* ----------------- end of menu----------------*/
+
+/* ----------------- Content ----------------------- */
+
+
+#templatemo_content {
+	width: 800px;
+	height: auto;
+}
+
+#templatemo_top {
+	float: left;
+	padding: 20px;
+	width: 760px;
+	background: #383a2f;
+}
+
+#templatemo_bottom {
+	float: left;
+	width: 800px;
+	color: #999966;
+	padding: 0px;
+	background: #1e1f19;
+}
+
+#templatemo_bottom a{
+	line-height: 25px;
+	color:  #999966;
+}
+
+#templatemo_bottom .section {
+	float: left;
+	width: 205px;
+	padding: 20px 10px 0px 30px;
+	height: 200px;
+}
+
+#templatemo_bottom .section a:hover {
+	color: #cccc66;
+}
+
+
+
+.title {
+	height: 60px;
+	margin-left: 10px;
+	padding-top: 18px;
+	padding-left: 30px;
+	font-size: 2.8em;	
+	color:#ffff66;
+	background: url(a.jpg) right  no-repeat;
+}
+.hedding
+{
+	height: 30px;
+	float:left;
+}
+.subtitle{
+	padding-bottom: 10px;
+	font-size: 1.4em;
+	color: #cccc33;
+}
+
+.text_area img{
+	float: left;
+	margin: 0px 10px;
+}
+
+/*--------- End of Content -------------*/
+
+/* -------- Footer --------- */
+
+#templatemo_footer {
+	clear: left;
+	padding-top: 15px;
+	padding-right: 10px;
+	width: 790px;
+	height: 62px;
+	color: #999966;
+	line-height: 24px;
+	text-align:right;
+	background: #212121 url(images/footerbackground.gif) repeat-x;
+}
+#templatemo_footer a {
+	color: #999966;
+	text-decoration: none;
+}
+
+#templatemo_footer a:hover {
+	color: #cccc66;
+}
+
+/* --------- end of footer --------------*/
